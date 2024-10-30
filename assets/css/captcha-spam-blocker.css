@@ -1,0 +1,109 @@
+.csb_botezatu_robot_container {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;  
+  padding-top: 10px!important;
+  padding-bottom: 7px!important;
+  margin-top: 10px!important;
+  margin-bottom: 15px!important;
+  background-color: #f2f2f2!important;
+  border: 2px solid #ccc!important;
+  border-radius: 15px!important;
+  cursor: pointer!important;
+  width: 100%!important;
+}
+
+@media only screen and (min-width: 768px) {
+  .csb_botezatu_robot_container {
+    max-width: 300px!important; 
+  }
+}
+
+.csb_botezatu_robot_row {
+  display: flex!important;
+  align-items: center!important;
+  font-family: Verdana, Arial, sans-serif!important;  
+  font-size: 12px!important;
+}
+
+.csb_botezatu_robot_checkbox {
+  all: revert!important;
+  margin: 0!important;
+  padding: 0!important;
+  accent-color: blue!important;
+  margin-right: 7px!important;
+  background: white!important;
+  border: 1px solid #8c8f94!important;
+}
+
+.csb_botezatu_robot_label {
+  display: flex!important;
+  align-items: center!important;
+  margin: 0!important;
+  padding: 0!important;
+  background: none!important; 
+  border: none!important;
+  color: inherit!important;
+  font-size: 12px!important; 
+  font-family: Verdana, Arial, sans-serif!important;
+}
+
+.csb_botezatu_robot_container:hover {
+  background-color: #e8e8e8!important;
+}
+
+.csb_botezatu_hand {
+  cursor: pointer!important;
+  -webkit-user-select: none!important;
+  -ms-user-select: none!important;
+  user-select: none!important;
+}
+ 
+
+.csb_botezatu_captcha_container {
+  display: flex!important;
+  align-items: center!important;
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  margin-top: 5px!important;
+  margin-bottom: 10px!important;
+  background: none!important;
+  color: inherit!important;
+  font-size: medium!important;
+}
+
+.csb_botezatu_captcha_img_container {
+  padding-right: 10px!important;
+}
+
+.csb_botezatu_captcha_img {
+  max-width: none!important;
+}
+
+.csb_botezatu_captcha_input_container {
+  vertical-align: top!important;
+}
+
+.csb_botezatu_captcha_code_input {
+  all: revert!important;
+  width: 150px!important;
+  height: 39px!important;
+  font-size: 14px!important;
+  font-family: Verdana, Arial, sans-serif!important;
+  margin: 0!important;
+  padding-left: 5px!important;
+  padding-top: 0!important;
+  padding-right: 0!important;
+  padding-bottom: 0!important;
+  border: 1px solid #8c8f94!important;
+}
+
+@media only screen and (max-width: 600px) {
+  .csb_botezatu_captcha_code_input {
+    width: 100%!important;
+  }
+}
+
+.csb_botezatu_captcha_invalid_elem { color:red!important; }
+
+.csb_botezatu_admin_w100perc{ width:100%!important; }
